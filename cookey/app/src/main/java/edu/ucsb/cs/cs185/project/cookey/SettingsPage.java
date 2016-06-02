@@ -1,0 +1,17 @@
+package edu.ucsb.cs.cs185.project.cookey;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+/**
+ * Created by harshitha on 6/1/16.
+ */
+public class SettingsPage extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.settings_page);
+    }
+}

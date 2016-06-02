@@ -8,17 +8,18 @@
             android:title="View Photos" />
         <item
             android:id="@+id/saved_recipes"
-            android:icon="@android:drawable/ic_menu_save"
+            android:icon="@drawable/bookmark"
             android:tint="#111111"
             android:title="Saved Recipes" />
         <item
             android:id="@+id/completed_recipies"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@drawable/done"
             android:tint="#111111"
             android:title="Completed Recipes" />
         <item
             android:id="@+id/settings"
             android:icon="@drawable/ic_menu_manage"
+
             android:title="Settings" />
     </group>
 
