@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.completed_recipies) {
 
         } else if (id == R.id.settings) {
-            Intent intent=new Intent(MainActivity.this, SettingsPage.class);
+            Intent intent=new Intent(this, SettingsPage.class);
             startActivity(intent);
 
         }
