@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.view_photos ){
+            Intent intent=new Intent(this,CongratsPage.class);
+            startActivity(intent);
+
             // Handle the camera action
         } else if (id == R.id.saved_recipes) {
 
